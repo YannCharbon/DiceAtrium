@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dice Atrium - Open-source TTRPG tools</title>
+    <meta name="description" content="Dice Atrium is the home of the Dice apps, a family of free and open-source tools for tabletop RPG game masters: DiceAudio for the sound of a session, DiceCombats for combat, and more to come." />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Dice Atrium - Open-source TTRPG tools" />
+    <meta property="og:description" content="The home of the Dice apps, a family of free and open-source tools for tabletop RPG game masters." />
+    <meta property="og:image" content="https://yanncharbon.github.io/diceatrium/og-logo.png" />
+    <meta property="og:url" content="https://yanncharbon.github.io/diceatrium/" />
+    <meta property="og:type" content="website" />
+
+    <link rel="alternate" href="https://yanncharbon.github.io/diceatrium/" hreflang="en" />
+    <link rel="alternate" href="https://yanncharbon.github.io/diceatrium/fr/" hreflang="fr" />
+</head>
+<body>
+
+    <div class="topbar">
+        <div class="topbar-inner">
+            <a class="brand" href=""><img src="logo.svg" alt="Dice Atrium logo" />Dice Atrium</a>
+            <nav>
+            <a class="hide-small" href="#apps">Apps</a>
+                        <a class="hide-small" href="#connect">Connecting them</a>
+            <a class="hide-small" href="#contribute">Contribute</a>
+                <a href="https://github.com/YannCharbon/DiceAtrium/"><img src="github-mark-white.svg" alt="" />GitHub</a>
+                <a href="fr/"><img src="language-svgrepo-com.svg" alt="" />FR</a>
+                <a class="cta" href="#apps">Get the apps</a>
+            </nav>
+        </div>
+    </div>
+
+    <header class="hero">
+        <div class="hero-inner">
+            <img class="gem" src="logo.svg" alt="Dice Atrium logo" />
+            <h1>Dice Atrium</h1>
+            <p class="tagline">Dice is a family of free, open-source apps I write for my own game table and share with other game masters. Each one does a single job: DiceAudio runs the sound of a session, DiceCombats runs the fights, and more are on the way. None of them needs an installer or an account, and your data stays on your machine.</p>
+
+            <div class="hero-actions">
+                <a class="btn primary" href="#apps">
+                    <img src="arrow-down.svg" alt="" />See the apps
+                </a>
+                <a class="btn" href="https://github.com/YannCharbon/DiceAtrium/">
+                    <img src="github-mark-white.svg" alt="" />GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="apps">
+        <div class="wrap">
+            <h2>The apps</h2>
+            <p class="lead">Two apps are public today.</p>
+            <div class="shots">
+                <article class="shot audio">
+                    <div class="shot-media"><img src="https://yanncharbon.github.io/DiceAudio/img/audio-scenarios.jpg" alt="DiceAudio, the scenarios view" loading="lazy" /></div>
+                    <div class="shot-text">
+                        <a class="app-head" href="https://yanncharbon.github.io/DiceAudio/">
+                            <img src="diceaudio-logo.svg" alt="" />
+                            <div><h3>DiceAudio</h3><small>Music, ambiences and sound effects for a session</small></div>
+                        </a>
+                        <p>Put your music, ambiences and sound effects in one library, build scenes that follow what happens at the table, and run the whole evening from one window. Of everything here, this is the app I am most proud of. The audio tools I tried before writing it all fell short somewhere: a good catalogue you cannot add your own files to, a poor player, a subscription, or an interface that takes an evening to learn. DiceAudio works from your own files, has a real player, and is simple to drive live. It also works well <a href="https://yanncharbon.github.io/DiceAudio/#beyond">outside the hobby</a>, from escape rooms to amateur theatre.</p>
+                        <ul>
+                            <li>Tagged library, with a downloader for YouTube, SoundCloud and many other sites</li>
+                            <li>Layered scenes with contexts such as calm or brawl that crossfade between them</li>
+                            <li>Scenarios: the ordered list of what you plan to play, grouped by adventure</li>
+                            <li>Local HTTP API, off by default, so another program can drive playback</li>
+                        </ul>
+                        <div class="app-actions">
+                            <a class="btn primary" href="https://github.com/YannCharbon/DiceAudio/releases/latest/"><img src="download-minimalistic-svgrepo-com.svg" alt="" />Download</a>
+                            <a class="btn" href="https://yanncharbon.github.io/DiceAudio/">Website</a>
+                            <a class="btn" href="https://github.com/YannCharbon/DiceAudio/"><img src="github-mark-white.svg" alt="" />Source</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="shot combats">
+                    <div class="shot-media"><img src="https://yanncharbon.github.io/DiceCombats/img/combat-manager-2.jpg" alt="DiceCombats, the combat view" loading="lazy" /></div>
+                    <div class="shot-text">
+                        <a class="app-head" href="https://yanncharbon.github.io/DiceCombats/">
+                            <img src="dicecombats-logo.svg" alt="" />
+                            <div><h3>DiceCombats</h3><small>Combat manager for any game system</small></div>
+                        </a>
+                        <p>Build creatures from the fields your system needs, track initiative and hit points during combat, and let the app take care of the rest: damage types and resistances, a combat log, and automations that call other programs when something happens.</p>
+                        <ul>
+                            <li>Custom creature sheets with ten field types, reusable across creatures</li>
+                            <li>Bestiary and player groups, with import from aidedd.org for D&amp;D</li>
+                            <li>Damage calculation shown in full before you confirm it</li>
+                            <li>Combat log with per-creature statistics, exportable as JSON</li>
+                        </ul>
+                        <div class="app-actions">
+                            <a class="btn primary" href="https://github.com/YannCharbon/DiceCombats/releases/latest/"><img src="download-minimalistic-svgrepo-com.svg" alt="" />Download</a>
+                            <a class="btn" href="https://yanncharbon.github.io/DiceCombats/">Website</a>
+                            <a class="btn" href="https://github.com/YannCharbon/DiceCombats/"><img src="github-mark-white.svg" alt="" />Source</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <p class="lead" style="margin-top:22px;">A few more tools are in the works for my own table. They will join the family once they are good enough to share.</p>
+        </div>
+    </section>
+
+
+    <section id="connect">
+        <div class="wrap">
+            <h2>Connecting the apps</h2>
+            <p class="lead">The apps are not integrated with each other out of the box. What they share is a common language: DiceCombats can send HTTP requests when something happens in combat, and DiceAudio can receive them on a local server you switch on in its settings. Wiring the two together is a manual setup, done request by request.</p>
+            <p class="lead">In practice I mostly use this to drive things outside the Dice family: a sound sting when a player lands a critical hit, lights that change when combat starts, or a trigger for a private tool of mine. Anything that accepts an HTTP request will do, a smart bulb as much as a stream overlay. A tighter integration between the apps may come later. My own sessions do not need it yet, but the building blocks are there if you want to wire them yourself.</p>
+        </div>
+    </section>
+
+    <section id="contribute">
+        <div class="wrap">
+            <h2>Contribute</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Issues and ideas</h3>
+                    <p>If you find a bug or have an idea for a new feature, open an issue on the repository of the app concerned.</p>
+                </div>
+                <div class="card">
+                    <h3>Pull requests</h3>
+                    <p>Contributions are welcome. Please document your changes and follow the style of the surrounding code.</p>
+                </div>
+                <div class="card">
+                    <h3>License</h3>
+                    <p>Every Dice app is licensed under GPL-3.0-or-later. The source code is open and will remain open.</p>
+                </div>
+            </div>
+
+            <h2 style="margin-top:34px;">Support the project</h2>
+            <p class="lead">The apps are free, and I develop them in my spare time, so updates and fixes may sometimes take a while. If one of them is useful at your table, a donation helps me keep working on them.</p>
+            <a href="https://www.paypal.com/donate/?hosted_button_id=4X9ZURL5T4E6N"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Donate with PayPal" /></a>
+        </div>
+    </section>
+
+    <section id="ainotice">
+        <div class="wrap">
+            <h2>AI usage notice</h2>
+            <p>I wrote the Dice apps entirely by hand until early 2026. Since then I have been using Claude Code to help me implement new features faster, which leaves me more time for my TTRPG scenarios. AI is a development tool here: the features, design choices and direction of each app still come from me, as a game master building tools for other game masters.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <span>Dice Atrium, GPL-3.0-or-later.</span>
+            <span><a href="https://github.com/YannCharbon/DiceAtrium/">GitHub</a> &middot; <a href="https://yanncharbon.github.io/DiceAudio/">DiceAudio</a> &middot; <a href="https://yanncharbon.github.io/DiceCombats/">DiceCombats</a></span>
+        </div>
+    </footer>
+
+</body>
+</html>
