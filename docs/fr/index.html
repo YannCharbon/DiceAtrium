@@ -30,6 +30,7 @@
             <nav class="nav-sections" aria-label="Sections de la page">
                 <a href="#apps">Applications</a>
                 <a href="#connect">Les relier</a>
+                <a href="#data">Vos données</a>
                 <a href="#contribute">Contribuer</a>
             </nav>
             <div class="nav-util">
@@ -113,8 +114,16 @@
     <section id="connect">
         <div class="wrap">
             <h2>Relier les applications</h2>
-            <p class="lead">Pour l'instant, les applications ne communiquent pas directement entre elles. Elles reposent en revanche sur un même principe de communication par HTTP : DiceCombats peut envoyer des requêtes HTTP lorsqu'un événement survient en combat, et DiceAudio peut les recevoir via un serveur local à activer dans ses réglages. La liaison se configure manuellement, requête par requête.</p>
+            <p class="lead">Pour l'instant, les applications ne communiquent pas directement entre elles. En revanche, toutes deux savent utiliser des requêtes HTTP : DiceCombats peut en envoyer lorsqu'un événement survient en combat, et DiceAudio peut les recevoir via un serveur local à activer dans ses réglages. La liaison se configure manuellement, requête par requête.</p>
             <p class="lead">En pratique, je m'en sers surtout pour piloter d'autres outils que les applications Dice : un jingle lorsqu'un joueur réussit un coup critique, un éclairage qui change au début d'un combat, ou le déclenchement d'un outil personnel. Tout ce qui accepte une requête HTTP peut être piloté, qu'il s'agisse d'une ampoule connectée ou d'un overlay de stream. Une intégration plus poussée entre les applications verra peut-être le jour plus tard. Mes propres séances n'en ont pas encore besoin, mais les briques sont là si vous souhaitez les assembler vous-même.</p>
+        </div>
+    </section>
+
+    <section id="data">
+        <div class="wrap">
+            <h2>Vos données</h2>
+            <p class="lead">Les deux applications conservent vos données sur votre ordinateur et en prennent soin de la même manière. Vous pouvez partager ce que vous avez préparé avec un autre MJ : un combat est accompagné de ses créatures, et un groupe de scénarios de ses scènes et des pistes qu'elles jouent. Lors de l'importation, vous décidez du sort de chaque élément que vous possédez déjà. Les deux applications effectuent aussi des sauvegardes automatiques, et vous pouvez en restaurer une depuis leurs réglages.</p>
+            <p class="lead">Sous Windows, vous pouvez choisir le dossier dans lequel chaque application conserve ses données, par exemple un dossier synchronisé par OneDrive ou Dropbox. Vous retrouvez ainsi les mêmes données sur plusieurs ordinateurs. Les détails figurent sur le site de chaque application : <a href="https://yanncharbon.github.io/DiceAudio/fr/#data">DiceAudio</a> et <a href="https://yanncharbon.github.io/DiceCombats/fr/#data">DiceCombats</a>.</p>
         </div>
     </section>
 

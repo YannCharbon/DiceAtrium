@@ -30,6 +30,7 @@
             <nav class="nav-sections" aria-label="Page sections">
                 <a href="#apps">Apps</a>
                 <a href="#connect">Connecting them</a>
+                <a href="#data">Your data</a>
                 <a href="#contribute">Contribute</a>
             </nav>
             <div class="nav-util">
@@ -113,8 +114,16 @@
     <section id="connect">
         <div class="wrap">
             <h2>Connecting the apps</h2>
-            <p class="lead">The apps do not talk to each other directly yet. They do, however, rely on the same way of communicating, over HTTP: DiceCombats can send HTTP requests when something happens in combat, and DiceAudio can receive them on a local server you switch on in its settings. You set up the link yourself, one request at a time.</p>
+            <p class="lead">The apps do not talk to each other directly yet. Both of them, however, can work with HTTP requests: DiceCombats can send them when an event you choose occurs in combat, and DiceAudio can receive them on a local server you switch on in its settings. You set up the link yourself, one request at a time.</p>
             <p class="lead">In practice I mostly use this to drive things other than the Dice apps: a sound sting when a player lands a critical hit, lights that change when combat starts, or a trigger for a private tool of mine. Anything that accepts an HTTP request can be driven, from a smart bulb to a stream overlay. A tighter integration between the apps may come later. My own sessions do not need it yet, but the building blocks are there if you want to wire them yourself.</p>
+        </div>
+    </section>
+
+    <section id="data">
+        <div class="wrap">
+            <h2>Your data</h2>
+            <p class="lead">Both apps keep your data on your computer and look after it in the same way. You can share what you have prepared with another game master: a combat comes with its creatures, and a scenario group with its scenes and the audio items they play. When you import such a file, you choose what to do with each item you already have. Both apps also make backups automatically, and you can restore one from their settings.</p>
+            <p class="lead">On Windows, you can choose the folder where each app keeps its data, for example one that OneDrive or Dropbox keeps in sync, to use the same data on several computers. The details are on the site of each app: <a href="https://yanncharbon.github.io/DiceAudio/#data">DiceAudio</a> and <a href="https://yanncharbon.github.io/DiceCombats/#data">DiceCombats</a>.</p>
         </div>
     </section>
 
