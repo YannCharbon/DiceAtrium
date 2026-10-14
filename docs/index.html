@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Dice Atrium - Open-source TTRPG tools</title>
-    <meta name="description" content="Dice Atrium is the home of the Dice apps, a family of free and open-source tools for tabletop RPG game masters: DiceAudio for the sound of a session, DiceCombats for combat, and more to come." />
+    <meta name="description" content="Dice Atrium gathers the Dice apps, a family of free and open-source tools for tabletop RPG game masters: DiceAudio for the sound of a session, DiceCombats for combat, and more to come." />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="favicon.ico" sizes="any" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
 
+    <meta name="google-site-verification" content="_48weFEogx-29jpGcYPBlgfw3vu8xmv0ZpCxvn52Kq0" />
     <meta name="robots" content="index, follow" />
     <meta property="og:title" content="Dice Atrium - Open-source TTRPG tools" />
-    <meta property="og:description" content="The home of the Dice apps, a family of free and open-source tools for tabletop RPG game masters." />
+    <meta property="og:description" content="All the Dice apps, a family of free and open-source tools for tabletop RPG game masters." />
     <meta property="og:image" content="https://yanncharbon.github.io/diceatrium/og-logo.png" />
     <meta property="og:url" content="https://yanncharbon.github.io/diceatrium/" />
     <meta property="og:type" content="website" />
@@ -21,25 +22,29 @@
 </head>
 <body>
 
-    <div class="topbar">
+    <header class="topbar">
         <div class="topbar-inner">
-            <a class="brand" href=""><img src="logo.svg" alt="Dice Atrium logo" />Dice Atrium</a>
-            <nav>
-            <a class="hide-small" href="#apps">Apps</a>
-                        <a class="hide-small" href="#connect">Connecting them</a>
-            <a class="hide-small" href="#contribute">Contribute</a>
-                <a href="https://github.com/YannCharbon/DiceAtrium/"><img src="github-mark-white.svg" alt="" />GitHub</a>
-                <a href="fr/"><img src="language-svgrepo-com.svg" alt="" />FR</a>
-                <a class="cta" href="#apps">Get the apps</a>
+            <div class="crumb">
+                <a class="brand" href=""><img src="logo.svg" alt="" />Dice Atrium</a>
+            </div>
+            <nav class="nav-sections" aria-label="Page sections">
+                <a href="#apps">Apps</a>
+                <a href="#connect">Connecting them</a>
+                <a href="#contribute">Contribute</a>
             </nav>
+            <div class="nav-util">
+                <a class="nav-key" href="https://github.com/YannCharbon/DiceAtrium/" title="GitHub" aria-label="GitHub"><img src="github-mark-white.svg" alt="" /></a>
+                <a class="nav-key nav-lang" href="fr/" hreflang="fr" title="Version française" aria-label="Version française">FR</a>
+                <a class="btn primary nav-cta" href="#apps">Get the apps</a>
+            </div>
         </div>
-    </div>
+    </header>
 
     <header class="hero">
         <div class="hero-inner">
             <img class="gem" src="logo.svg" alt="Dice Atrium logo" />
             <h1>Dice Atrium</h1>
-            <p class="tagline">Dice is a family of free, open-source apps I write for my own game table and share with other game masters. Each one does a single job: DiceAudio runs the sound of a session, DiceCombats runs the fights, and more are on the way. None of them needs an installer or an account, and your data stays on your machine.</p>
+            <p class="tagline">Dice is a family of free, open-source apps I write for my own game table and share with other game masters. Each one covers a different part of the game: DiceAudio handles the sound of your sessions, DiceCombats the fights, and more are on the way. None of them needs an installer or an account, and your data stays on your machine.</p>
 
             <div class="hero-actions">
                 <a class="btn primary" href="#apps">
@@ -55,19 +60,19 @@
     <section id="apps">
         <div class="wrap">
             <h2>The apps</h2>
-            <p class="lead">Two apps are public today.</p>
+            <p class="lead">Two apps are available so far.</p>
             <div class="shots">
                 <article class="shot audio">
                     <div class="shot-media"><img src="https://yanncharbon.github.io/DiceAudio/img/audio-scenarios.jpg" alt="DiceAudio, the scenarios view" loading="lazy" /></div>
                     <div class="shot-text">
                         <a class="app-head" href="https://yanncharbon.github.io/DiceAudio/">
                             <img src="diceaudio-logo.svg" alt="" />
-                            <div><h3>DiceAudio</h3><small>Music, ambiences and sound effects for a session</small></div>
+                            <div><h3>DiceAudio</h3><small>Music, ambiences and sound effects for your sessions</small></div>
                         </a>
-                        <p>Put your music, ambiences and sound effects in one library, build scenes that follow what happens at the table, and run the whole evening from one window. Of everything here, this is the app I am most proud of. The audio tools I tried before writing it all fell short somewhere: a good catalogue you cannot add your own files to, a poor player, a subscription, or an interface that takes an evening to learn. DiceAudio works from your own files, has a real player, and is simple to drive live. It also works well <a href="https://yanncharbon.github.io/DiceAudio/#beyond">outside the hobby</a>, from escape rooms to amateur theatre.</p>
+                        <p>Put your music, ambiences and sound effects in one library, build scenes that follow what happens at the table, and run the whole evening from one window. Of all the apps here, this is the one I am most proud of. Every audio tool I tried before writing it fell short somewhere: a good catalogue you cannot add your own files to, a poor player, a subscription, or an interface that takes an evening to learn. DiceAudio works with your own files, has a proper player and stays simple to run mid-session. It also works well <a href="https://yanncharbon.github.io/DiceAudio/#beyond">outside the hobby</a>, from escape rooms to amateur theatre.</p>
                         <ul>
                             <li>Tagged library, with a downloader for YouTube, SoundCloud and many other sites</li>
-                            <li>Layered scenes with contexts such as calm or brawl that crossfade between them</li>
+                            <li>Layered scenes with contexts such as calm or brawl, and crossfades between them</li>
                             <li>Scenarios: the ordered list of what you plan to play, grouped by adventure</li>
                             <li>Local HTTP API, off by default, so another program can drive playback</li>
                         </ul>
@@ -85,7 +90,7 @@
                             <img src="dicecombats-logo.svg" alt="" />
                             <div><h3>DiceCombats</h3><small>Combat manager for any game system</small></div>
                         </a>
-                        <p>Build creatures from the fields your system needs, track initiative and hit points during combat, and let the app take care of the rest: damage types and resistances, a combat log, and automations that call other programs when something happens.</p>
+                        <p>Build creatures from the fields your system needs, track initiative and hit points during combat, and let the app take care of the rest: damage types and resistances, a combat log, and automations that can trigger other programs based on what happens in combat.</p>
                         <ul>
                             <li>Custom creature sheets with ten field types, reusable across creatures</li>
                             <li>Bestiary and player groups, with import from aidedd.org for D&amp;D</li>
@@ -100,7 +105,7 @@
                     </div>
                 </article>
             </div>
-            <p class="lead" style="margin-top:22px;">A few more tools are in the works for my own table. They will join the family once they are good enough to share.</p>
+            <p class="lead" style="margin-top:22px;">A few more tools are in the works for my own table. They will join the Atrium once they are good enough to share.</p>
         </div>
     </section>
 
@@ -108,8 +113,8 @@
     <section id="connect">
         <div class="wrap">
             <h2>Connecting the apps</h2>
-            <p class="lead">The apps are not integrated with each other out of the box. What they share is a common language: DiceCombats can send HTTP requests when something happens in combat, and DiceAudio can receive them on a local server you switch on in its settings. Wiring the two together is a manual setup, done request by request.</p>
-            <p class="lead">In practice I mostly use this to drive things outside the Dice family: a sound sting when a player lands a critical hit, lights that change when combat starts, or a trigger for a private tool of mine. Anything that accepts an HTTP request will do, a smart bulb as much as a stream overlay. A tighter integration between the apps may come later. My own sessions do not need it yet, but the building blocks are there if you want to wire them yourself.</p>
+            <p class="lead">The apps do not talk to each other directly yet. They do, however, rely on the same way of communicating, over HTTP: DiceCombats can send HTTP requests when something happens in combat, and DiceAudio can receive them on a local server you switch on in its settings. You set up the link yourself, one request at a time.</p>
+            <p class="lead">In practice I mostly use this to drive things other than the Dice apps: a sound sting when a player lands a critical hit, lights that change when combat starts, or a trigger for a private tool of mine. Anything that accepts an HTTP request can be driven, from a smart bulb to a stream overlay. A tighter integration between the apps may come later. My own sessions do not need it yet, but the building blocks are there if you want to wire them yourself.</p>
         </div>
     </section>
 
